@@ -4,15 +4,15 @@ import TheWelcome from "../components/TheWelcome.vue";
 
 <template>
   <main>
-    <div class="main">
-      <RouterLink to="testfirt">Navegar para o Primeiro Teste</RouterLink>
-      <RouterLink to="testSec">Navegar para o Segundo Teste</RouterLink>
+    <div class="teste1">
+      <h2>Primeiro Teste</h2>
+      <img src="https://www.wallpapertip.com/wmimgs/25-258610_4k-scenery.jpg" />
     </div>
   </main>
 </template>
 
 <style>
-.main {
+.teste1 {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -21,11 +21,9 @@ import TheWelcome from "../components/TheWelcome.vue";
   align-items: center;
   justify-content: center;
 }
-a {
-  justify-self: center;
-  font-size: xx-large;
-  font-weight: 400;
-  text-decoration: none;
-  margin-bottom: 20px;
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
 }
 </style>
