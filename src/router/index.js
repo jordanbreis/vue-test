@@ -4,6 +4,7 @@ import testeview from "../views/testeview.vue";
 import testeviewSec from "../views/testeviewSec.vue";
 
 const router = createRouter({
+  mode: "history",
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
